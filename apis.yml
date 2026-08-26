@@ -1,17 +1,35 @@
 aid: orasis-pharmaceuticals
 name: Orasis Pharmaceuticals
-description: 'Orasis Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Orasis Pharmaceuticals is an ophthalmic pharmaceutical company with offices in the United States
+  and Israel, focused on treatments for presbyopia — the age-related loss of near vision that affects
+  roughly two billion people worldwide. Its lead product, QLOSI (pilocarpine hydrochloride ophthalmic
+  solution) 0.4%, is a preservative-free, single-use-vial prescription eye drop approved by the FDA in
+  October 2023 and commercially available in the United States, with a follow-on candidate (BESKA)
+  submitted for approval in Australia. The company is backed by life-sciences investors including
+  Sequoia Capital, Johnson & Johnson Innovation and Arboretum Ventures. Orasis sells a regulated
+  pharmaceutical product, not software: it operates a corporate marketing site plus product sites for
+  patients (qlosi.com) and eye care professionals (qlosiecp.com), and publishes no developer program,
+  public API, SDK, webhook surface or machine-readable API contract of any kind.
+image: https://orasis-pharma.com/hubfs/HQ%20Only/Orasis_Pharmaceuticals_Logo_RGB.svg
 url: https://raw.githubusercontent.com/api-evangelist/orasis-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass-completed
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Pharmaceuticals
+- Life Sciences
+- Ophthalmology
+- Healthcare
+- Vision
+- Presbyopia
+- Biotechnology
+- Israel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://orasis-pharma.com/
+- type: About
+  url: https://orasis-pharma.com/about
+- type: Support
+  url: https://orasis-pharma.com/contact
+- type: Blog
+  url: https://orasis-pharma.com/press-releases
+- type: TermsOfService
+  url: https://orasis-pharma.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://orasis-pharma.com/privacy-policy
+- type: DomainSecurity
+  url: security/orasis-pharmaceuticals-domain-security.yml
+- type: LLMsTxt
+  url: llms/orasis-pharmaceuticals-llms.txt
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Orasis Pharmaceuticals is a commercial-stage ophthalmic drug maker whose product is a
+    prescription eye drop (QLOSI); its three HubSpot-hosted sites carry no /developers, /api or
+    /docs section at all, and every contract-discovery path probed on orasis-pharma.com,
+    qlosi.com and qlosiecp.com returned the CMS 404 page.
+  evidence:
+  - url: https://orasis-pharma.com/openapi.json
+    status: 404
+  - url: https://orasis-pharma.com/api-docs
+    status: 404
+  - url: https://orasis-pharma.com/.well-known/api-catalog
+    status: 404
+  - url: https://qlosi.com/.well-known/agent-card.json
+    status: 404
+  - url: https://orasis-pharma.com/sitemap.xml
+    status: 200
+  checked: '2026-08-26'

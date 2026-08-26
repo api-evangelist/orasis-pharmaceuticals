@@ -64,5 +64,15 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Orasis Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Orasis Pharmaceuticals is an ophthalmic pharmaceutical company with offices in the United States and
+Israel, focused on treatments for presbyopia. Its lead product, QLOSI (pilocarpine hydrochloride
+ophthalmic solution) 0.4%, is an FDA-approved, preservative-free prescription eye drop for
+age-related near-vision loss in adults.
+
+**No API surface.** As of 2026-08-26 Orasis publishes no public API, developer portal, SDK, webhook
+surface or machine-readable API contract. Every contract-discovery probe against `orasis-pharma.com`,
+`qlosi.com` and `qlosiecp.com` returned 404. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://orasis-pharma.com/
+- https://qlosi.com/
+- https://qlosiecp.com/
