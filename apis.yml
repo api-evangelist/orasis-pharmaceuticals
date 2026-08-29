@@ -11,6 +11,17 @@ description: >-
   pharmaceutical product, not software: it operates a corporate marketing site plus product sites for
   patients (qlosi.com) and eye care professionals (qlosiecp.com), and publishes no developer program,
   public API, SDK, webhook surface or machine-readable API contract of any kind.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://orasis-pharma.com/hubfs/HQ%20Only/Orasis_Pharmaceuticals_Logo_RGB.svg
 url: https://raw.githubusercontent.com/api-evangelist/orasis-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
