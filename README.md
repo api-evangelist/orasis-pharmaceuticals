@@ -64,15 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Orasis Pharmaceuticals is an ophthalmic pharmaceutical company with offices in the United States and
-Israel, focused on treatments for presbyopia. Its lead product, QLOSI (pilocarpine hydrochloride
-ophthalmic solution) 0.4%, is an FDA-approved, preservative-free prescription eye drop for
-age-related near-vision loss in adults.
+Orasis Pharmaceuticals is an ophthalmic pharmaceutical company with offices in the United States and Israel, focused on treatments for presbyopia — the age-related loss of near vision that affects roughly two billion people worldwide. Its lead product, QLOSI (pilocarpine hydrochloride ophthalmic solution) 0.4%, is a preservative-free, single-use-vial prescription eye drop approved by the FDA in October 2023 and commercially available in the United States, with a follow-on candidate (BESKA) submitted for approval in Australia. The company is backed by life-sciences investors including Sequoia Capital, Johnson & Johnson Innovation and Arboretum Ventures. Orasis sells a regulated pharmaceutical product, not software: it operates a corporate marketing site plus product sites for patients (qlosi.com) and eye care professionals (qlosiecp.com), and publishes no developer program, public API, SDK, webhook surface or machine-readable API contract of any kind.
 
-**No API surface.** As of 2026-08-26 Orasis publishes no public API, developer portal, SDK, webhook
-surface or machine-readable API contract. Every contract-discovery probe against `orasis-pharma.com`,
-`qlosi.com` and `qlosiecp.com` returned 404. See `x-coverage` in `apis.yml` for the probed evidence.
+**Areas:** Company · Pharmaceuticals · Life Sciences · Ophthalmology · Healthcare · Vision · Presbyopia · Biotechnology · Israel
 
-- https://orasis-pharma.com/
-- https://qlosi.com/
-- https://qlosiecp.com/
+## Orasis Pharmaceuticals on APIs.io
+
+Everything profiled for Orasis Pharmaceuticals is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/orasis-pharmaceuticals/](https://apis.io/providers/orasis-pharmaceuticals/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Orasis Pharmaceuticals Domain Security](https://apis.io/security/orasis-pharmaceuticals/orasis-pharmaceuticals-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://orasis-pharma.com/)
+- [Support](https://orasis-pharma.com/contact)
+- [Blog](https://orasis-pharma.com/press-releases)
+- [Terms of service](https://orasis-pharma.com/terms-of-service)
+- [Privacy policy](https://orasis-pharma.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/orasis-pharmaceuticals/](https://apis.io/providers/orasis-pharmaceuticals/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Orasis Pharmaceuticals: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/orasis-pharmaceuticals/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
